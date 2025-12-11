@@ -109,7 +109,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB         &kp SQT   &kp COMMA  &kp DOT       &kp P         &kp Y                                                           &kp F   &kp G              &kp C   &kp R       &kp L   &kp FSLH
 &kp LEFT_SHIFT  &kp A     &kp O      &kp E         &kp U         &kp I                                                           &kp D   &kp H              &kp T   &kp N       &kp S   &kp MINUS
 &kp LCTRL       &kp SEMI  &kp Q      &kp J         &kp K         &kp X   &none            &none                                  &kp B   &kp M              &kp W   &kp V       &kp Z   &kp RIGHT_SHIFT
-&none           &none     &mo 3      &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE        &sticky_key_quick_release RIGHT_SHIFT  &sl 2   &kp RIGHT_CONTROL  &to 4   &kp DELETE  &none   &none
+&none           &none     &mo 3      &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE        &sticky_key_quick_release RIGHT_SHIFT  &sl 2   &kp RIGHT_CONTROL  &to 4   &kp DELETE  &none   &to 5
             >;
 
             label = "DEFAULT";
@@ -147,7 +147,7 @@ As such, those are in use within the default layer at this time.*/
 
         math {
             bindings = <
-&to 0   &to 5   &trans  &trans  &trans  &trans                        &trans        &trans  &trans  &trans  &kp MINUS     &trans
+&to 0   &trans  &trans  &trans  &trans  &trans                        &trans        &trans  &trans  &trans  &kp MINUS     &trans
 &trans  &trans  &trans  &trans  &trans  &trans                        &kp LS(STAR)  &kp N7  &kp N8  &kp N9  &kp LS(PLUS)  &kp LEFT
 &trans  &trans  &trans  &trans  &trans  &trans                        &kp FSLH      &kp N4  &kp N5  &kp N6  &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &kp N0        &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp RET
@@ -161,7 +161,7 @@ As such, those are in use within the default layer at this time.*/
 &kp TAB    &kp Q   &kp W   &kp E   &kp R     &kp T                            &kp Y   &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp A   &kp S   &kp D   &kp F     &kp G                            &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &kp Z   &kp X   &kp C   &kp V     &kp B   &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &kp LALT  &trans  &kp SPACE        &trans  &trans  &trans  &to 0   &trans  &trans  &trans
+&trans     &trans  &trans  &trans  &kp LALT  &trans  &kp SPACE        &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
         };
     };
