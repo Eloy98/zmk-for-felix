@@ -12,106 +12,165 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '-'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
   - BACKSPACE
-  - {t: A, h: LCTRL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT GUI}
-  - {t: F, h: LEFT SHIFT}
-  - G
-  - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RGUI}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT CONTROL}
+  - TAB
   - ''''
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - SYS
-  - NUM
-  - N
-  - M
   - ','
   - .
+  - P
+  - Y
+  - F
+  - G
+  - C
+  - R
+  - L
   - /
-  - RIGHT SHIFT
+  - LEFT SHIFT
+  - A
+  - O
+  - E
+  - U
+  - I
+  - D
+  - H
+  - T
+  - N
+  - S
+  - '-'
   - LCTRL
-  - LEFT META
-  - LALT
+  - ;
+  - Q
+  - J
+  - K
+  - X
+  - ''
+  - ''
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - RIGHT SHIFT
+  - ''
+  - ''
+  - adjust
+  - LEFT GUI
+  - LEFT ALT
+  - nav
   - SPACE
-  - ENTER
-  - NAV
-  - NUM
-  - NAV
-  - SPACE
-  - DEL
+  - {t: RIGHT SHIFT, h: sticky}
+  - {t: symbol, h: sticky}
+  - RIGHT CONTROL
+  - {t: math, h: toggle}
+  - DELETE
+  - ''
+  - ''
+  nav:
+  - ESC
+  - '&vim_mark LS(D)'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&vim_mark LS(A)'
+  - '&vim_mark LS(B)'
+  - '&vim_mark LS(C)'
+  - {t: ▽, type: trans}
+  - '&vim_save'
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - '&vim_gotomark LS(A)'
+  - '&vim_gotomark LS(B)'
+  - '&vim_gotomark LS(C)'
+  - {t: ▽, type: trans}
+  - Ctl+A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&vim_register A'
   - LEFT
   - DOWN
-  - UP
   - RIGHT
-  NAV:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&vim_register B'
+  - Ctl+U
+  - ENTER
+  - Ctl+D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - {type: held}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  symbol:
+  - ESC
+  - Sft+1
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+{
+  - Sft+}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PRINTSCREEN
-  - {t: ▽, type: trans}
-  - INS
-  - HOME
-  - UP ARROW
-  - END
-  - PG UP
-  - {t: ▽, type: trans}
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft++
+  - '='
+  - ;
+  - Sft+"
+  - Sft+(
+  - Sft+)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - PAGE DOWN
-  - LEFT GUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - '|'
+  - \
   - {t: ▽, type: trans}
   - '-'
-  - '='
+  - Sft+_
+  - 'Sft+:'
+  - ;
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -121,6 +180,74 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - OUT USB
+  - OUT BLE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +257,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  math:
+  - {t: DEFAULT, h: toggle}
+  - {t: gaming, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -139,7 +271,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '8'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,39 +279,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
+  - Sft+*
   - '7'
   - '8'
   - '9'
+  - Sft++
+  - LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PAGE DOWN
+  - /
   - '4'
   - '5'
   - '6'
-  - +
-  - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,62 +306,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - KP DOT
-  - NEXT
-  - VOL DN
-  - VOL UP
-  - PP
-  SYS:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - CAPSLOCK
-  - KP NUMLOCK
-  - SCROLLLOCK
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - OUT TOG
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&bootloader'
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - RET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -256,7 +321,72 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - symbol
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  gaming:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - {t: ▽, type: trans}
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: DEFAULT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
