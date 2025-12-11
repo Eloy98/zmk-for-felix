@@ -64,7 +64,7 @@ layers:
   - {t: math, h: toggle}
   - DELETE
   - ''
-  - ''
+  - {t: gaming, h: toggle}
   nav:
   - ESC
   - '&vim_mark LS(D)'
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   math:
   - {t: DEFAULT, h: toggle}
-  - {t: gaming, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -386,7 +386,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: DEFAULT, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
