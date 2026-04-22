@@ -5,6 +5,7 @@
  */
 
 #include "felix_dongle.dtsi"
+#include "pinctrl.dtsi"
 &kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     row-gpios
