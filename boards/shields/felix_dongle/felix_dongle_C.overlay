@@ -10,6 +10,7 @@
 /{
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &felix_layout;
     };
     mock_kscan: kscan_1 {
         compatible = "zmk,kscan-mock";
