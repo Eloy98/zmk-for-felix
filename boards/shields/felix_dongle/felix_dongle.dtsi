@@ -6,12 +6,6 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "felix_dongle_physical.dtsi"
-
-&felix_layout {
-  kscan = <&kscan0>;
-  transform = <&default_transform>;
-};
-
 / {
     chosen{
         zmk,kscan = &kscan0;
