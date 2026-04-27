@@ -1,7 +1,4 @@
-# Copyright (c) 2020 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-
-if SHIELD_FELIX_LEFT
+if SHIELD_FELIX_DONGLE_C
 
 config ZMK_KEYBOARD_NAME
     default "Felix"
@@ -11,10 +8,15 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_FELIX_LEFT || SHIELD_FELIX_RIGHT
+
+if SHIELD_FELIX_DONGLE_C || SHIELD_FELIX_DONGLE_L || SHIELD_FELIX_DONGLE_R
 
 config ZMK_SPLIT
     default y
+
+endif
+
+if SHIELD_FELIX_DONGLE_L || SHIELD_FELIX_DONGLE_R
 
 if ZMK_DISPLAY
 
@@ -24,9 +26,13 @@ config I2C
 config SSD1306
     default y
 
-endif # ZMK_DISPLAY
+choice ZMK_DISPLAY_WORK_QUEUE
+    default ZMK_DISPLAY_WORK_QUEUE_DEDICATED
+endchoice
 
-if LVGL
+endif
+
+if SSD1306
 
 config LV_Z_VDB_SIZE
     default 64
@@ -41,6 +47,8 @@ choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
 
-endif # LVGL
+endif
 
 endif
+
+

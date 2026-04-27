@@ -51,7 +51,7 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT  &kp Z          &kp X     &kp C      &kp V      &kp B      &kp PAGE_UP        &kp PAGE_DOWN  &kp N      &kp M    &kp COMMA  &kp PERIOD  &kp SLASH      &kp RIGHT_SHIFT
 &kp LCTRL  &kp LEFT_META  &kp LALT  &kp SPACE  &kp ENTER  &kp SPACE  &kp HOME           &kp END        &kp SPACE  &kp DEL  &kp LEFT   &kp DOWN    &kp UP         &kp RIGHT
             >;
-
+            display-name = "DEFAULT";
             label = "DEFAULT";
         };
 
@@ -70,7 +70,7 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans     &trans  &trans  &trans           &trans  &trans        &trans  &kp MINUS   &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &trans
 &trans  &trans     &trans  &trans  &trans           &trans  &trans        &trans  &trans      &kp SPACE       &trans            &trans             &trans         &trans
             >;
-
+            display-name = "NAV";
             label = "NAV";
         };
 
@@ -89,7 +89,7 @@ As such, those are in use within the default layer at this time.*/
 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &kp N0         &kp KP_DOT    &kp C_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP
             >;
-
+            display-name = "NUM";
             label = "NUM";
         };
 
@@ -108,7 +108,7 @@ As such, those are in use within the default layer at this time.*/
 &bootloader  &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans        &trans          &trans          &trans  &trans          &bootloader
 &trans       &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans        &trans          &trans          &trans  &trans          &trans
             >;
-
+            display-name = "SYS";
             label = "SYS";
         };
 

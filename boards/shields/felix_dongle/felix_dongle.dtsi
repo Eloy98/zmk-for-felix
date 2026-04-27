@@ -5,18 +5,12 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "felix_physical.dtsi"
-
-&felix_layout {
-  kscan = <&kscan0>;
-  transform = <&default_transform>;
-};
-
+#include "felix_dongle_physical.dtsi"
 / {
-    chosen {
-        zephyr,display = &oled;
+    chosen{
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &felix_layout;
     };
-
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
@@ -36,38 +30,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)   RC(4,7) RC(4,8) RC(4,9
     };
 
     kscan0: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
-
-        diode-direction = "col2row";
-        row-gpios
-            = <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            ;
-
+        diode-direction = "col2row";        
     };
-
 };
-
- &pro_micro_i2c {
-     status = "okay";
- 
-     oled: ssd1306@3c {
-         compatible = "solomon,ssd1306fb";
-         reg = <0x3c>;
-         width = <128>;
-         height = <32>;
-         segment-offset = <0>;
-         page-offset = <0>;
-         display-offset = <0>;
-         multiplex-ratio = <31>;
-         segment-remap;
-         com-invdir;
-         com-sequential;
-         inversion-on;
-         prechargep = <0x22>;
-     };
- };

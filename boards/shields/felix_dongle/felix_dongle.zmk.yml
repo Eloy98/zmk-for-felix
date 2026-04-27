@@ -9,6 +9,8 @@ features:
   - keys
   - display
   - studio
+  - dongle
 siblings:
-  - felix_left
-  - felix_right
+  - felix_dongle_C
+  - felix_dongle_R
+  - felix_dongle_L
