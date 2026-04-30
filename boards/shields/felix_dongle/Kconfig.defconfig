@@ -24,6 +24,9 @@ endif
 
 if SHIELD_FELIX_DONGLE_L || SHIELD_FELIX_DONGLE_R
 
+config ZMK_USB
+    default n
+
 if ZMK_DISPLAY
 
 config I2C
